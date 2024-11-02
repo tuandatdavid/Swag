@@ -16,8 +16,6 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: rpm-ostree
-    repos:
-       - https://download.docker.com/linux/fedora/docker-ce.repo
     install:
        - podman-compose       
        - git 
