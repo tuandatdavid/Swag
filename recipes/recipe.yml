@@ -4,7 +4,7 @@ name: Swag
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ostree://fedora-iot:fedora/stable/x86_64/iot
+base-image: fedora-iot:fedora/stable/x86_64/iot
 image-version: 40 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
